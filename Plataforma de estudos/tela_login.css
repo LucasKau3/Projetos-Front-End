@@ -1,0 +1,176 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+body{ 
+color: white;
+margin: 0;
+font-family: 'Noto Sans';
+}
+
+body * {
+    box-sizing: border-box;
+}
+/* Edição main login */
+.main-login{
+    width: 100vw;
+    height: 100vh;
+    background-color:rgb(29, 29, 65);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Edição left login */
+.left-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.left-login > h1{
+    color: aqua;
+    font-size: 3vw;
+}
+
+/* Deixando responsivo a imagem */
+.left-login-image{
+    width: 35vw;
+}
+
+ .right-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Card de login */
+.card-login{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #2f2841 ;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+    font-family: 'Noto Sans';
+    padding-right: 80px;
+}
+
+.card-login > h1{
+    color: aqua;
+    font-weight: 800;
+    margin: #514869;
+    width: 35vw;
+}
+
+.textfield{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+
+}
+
+.textfield > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #514869;
+    color: #f0ffffde;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.textfield{
+    color: #f0ffff94;
+    margin-bottom: 10px;
+}
+
+.textfield > input::placeholder{
+    color: #f0ffff94;
+}
+
+.btn-login{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    font-weight: 800;
+    color:#4f319a;
+    background: aqua;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #00ff8052;
+
+}
+
+
+/* Ferramenta para responsovidade */
+@media only screen and (max-with: 950px){
+    .card-login{
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .main-login{
+        flex-direction: column;
+    }
+
+.left-login > h1{
+    display: auto;
+
+    }
+    
+    .left-login{
+        width: 100%;
+        height: auto;
+    }
+     
+    .right-login{
+        width: 100%;
+        height: auto
+    }
+    .left-login-image{
+     width: 50vw;   
+    }
+    .card-login{
+        width: 90%;
+    }
+}
+
+
+.textfield-esqueceu-senha a{
+    width: 50%;
+    color: #f0ffff94;
+    display: inline-block;
+    text-decoration: none;
+    float: left;
+    
+}
+
+.teste{
+    width: 100%;
+    text-align: center;
+
+}
+
+.lembrar-me{
+    width: 50%;
+    float: left;
+}

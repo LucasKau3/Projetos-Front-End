@@ -1,0 +1,96 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+
+body{
+    background-color: rgb(29, 29, 65);
+    font-family: 'Noto Sans';
+    margin: 0;
+}
+
+body *{
+        box-sizing: border-box;
+}
+
+.main-recuperar-login{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(29, 29, 65);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-recuperar-login{
+    width: 50%;
+    /* background: #2f2841; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20%;
+    /* box-shadow:  0px 10px 40px #00000056; */
+    font-family: 'Noto Sans';
+    padding-right: 50px;
+}
+
+.card-recuperar-login{
+    color: #f0ffff94;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.textfield-recuperar-senha > input{
+    width: 100%;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+    box-sizing: border-box;
+    /* box-shadow:  0px 10px 40px #00000056; */
+    color:  black;
+    margin-bottom: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px;
+    background-color: #514869;
+    font-size: 12pt;
+    padding: 15px;
+    color:  #f0ffff94;
+}
+
+.textfield-recuperar-senha{
+    font-family: 'Courier New', Courier, monospacef;
+}
+
+.btn-recuperar-login{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    /* font-family: 'Courier New', Courier, monospace; */
+    color: #4f319a;
+    background: aqua;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #00ff8052;
+    
+}
+
+@media only screen and( max-with: 950px){
+    .card-recuperar-login{
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .main-recuperar-login{
+        flex-direction: column;
+    }
+}
+
+/* .main-recuperar-login{
+    display: auto;
+} */
+
