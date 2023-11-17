@@ -1,0 +1,50 @@
+/* Corpo do página */
+body{
+    background-image: url("imagens/971.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: left top;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*  Efeito hover no menu */
+nav a:hover{
+        color:white;
+        font-family:'Courier New', Courier, monospace;
+        display: flex;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace
+}
+
+h3{
+    width: 80px;
+    text-align: center;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: start;
+    padding: 16px;
+    justify-content: right;
+    padding-right: 20px;
+    
+}
+
+a{
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    text-decoration: none;
+}
+
+ul li {
+    justify-content: right;
+    margin: 10px;
+}
+
+
+

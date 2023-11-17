@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(47, 18, 134);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left top;
+    color: white;
+    font-family: 'Courier New', Courier, monospace
+}
+
+h3{
+    width: 80px;
+    text-align: center;
+}
+                                                                                                                                                                                                                                                                     
+p{
+    /* width: 80px; */
+    text-align: left;
+}
+
+
+.HTMLimg{
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+.CSSimg{
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+.JSimg{
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+.PHPimg{
+    box-shadow: 0px 10px 40px #00000056;
+}
